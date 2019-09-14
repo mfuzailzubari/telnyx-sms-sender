@@ -226,6 +226,15 @@ return [
 
     ],
 
-    'phone_number' => '+18775533801',
-    'telnyx_app_secret' => 'Q5k3oNNnSYlJJAoFwaa0FXVT',
+    /*
+    |--------------------------------------------------------------------------
+    | Telnyx Configuration
+    |--------------------------------------------------------------------------
+    |
+    | phone_number: Telnyx senders phone number.
+    | telnyx_app_secret: Telnyx secret key to use APIs.
+    |
+    */
+    'phone_number' => '<telnyx-phone-number>',
+    'telnyx_app_secret' => '<telnyx-app-secret>',
 ];
